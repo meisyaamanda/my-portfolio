@@ -25,7 +25,7 @@ function Photo() {
           <span className="ml-2 text-cyan-300">
             <Typewriter
               options={{
-                strings: ["Frontend Developer."],
+                strings: ["Web Development."],
                 autoStart: true,
                 loop: true,
                 delay: 50,

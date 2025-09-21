@@ -4,7 +4,7 @@ import Link from "next/link";
 function Navigation() {
   return (
     <>
-      <header className="sticky top-0 z-50 bg-[#0f142ed9] flex p-4 justify-between text-white">
+      <header className="sticky top-0 z-50 bg-gray-900 flex p-4 justify-between text-white">
         <h3> My Portofolio</h3>
         <nav className="flex gap-4">
           <Link href={"/"}>Home</Link>
