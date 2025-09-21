@@ -4,7 +4,6 @@ function Page() {
   return (
     <div>
       <Photo />
-      <p>Home</p>
     </div>
   );
 }

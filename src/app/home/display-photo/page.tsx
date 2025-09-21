@@ -2,10 +2,12 @@
 
 import Image from "next/image";
 import Typewriter from "typewriter-effect";
+import ParticlesBg from "../particle-bg";
 
 function Photo() {
   return (
     <div className="relative h-screen flex items-center justify-center text-white overflow-hidden flex-col">
+      <ParticlesBg />
       <div className="relative z-10 flex flex-col items-center">
         <Image
           src="/images/s1.jpg"
