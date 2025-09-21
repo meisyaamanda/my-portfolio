@@ -9,9 +9,9 @@ import { FaWhatsapp } from "react-icons/fa";
 
 function ContactPage() {
   return (
-    <div className="relative">
+    <div className="relative h-screen flex items-center justify-center text-white overflow-hidden flex-col">
       <ParticlesBg />
-      <h2 className="text-center text-xl sm:text-2xl md:text-3xl font-bold text-white">
+      <h2 className="text-center text-xl sm:text-2xl md:text-3xl font-bold">
         I’m always open to new opportunities, collaborations, or just a friendly
         chat. Feel free to reach out through the links below:
       </h2>
