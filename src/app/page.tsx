@@ -1,6 +1,11 @@
 import * as React from "react";
+import Photo from "./home/display-photo/page";
 function Page() {
-  return (<div className="text-3xl text-center items-center">Home</div>);
+  return (
+    <div>
+      <Photo />
+    </div>
+  );
 }
 
 export default Page;
