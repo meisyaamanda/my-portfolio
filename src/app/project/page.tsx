@@ -3,7 +3,7 @@ import ParticlesBg from "../home/particle-bg";
 
 function ProjectsPage() {
   return (
-    <div className="pb-16 pt-16">
+    <div className="relative">
       <ParticlesBg />
       <h1 className="text-center text-2xl sm:text-4xl md:text-5xl font-bold text-white">
         A small selection of recent{" "}
