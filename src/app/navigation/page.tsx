@@ -10,6 +10,7 @@ function Navigation() {
           <Link href={"/"}>Home</Link>
           <Link href={"/about"}>About</Link>
           <Link href={"/project"}>Project</Link>
+          <Link href={"/skills"}>Skills</Link>
           <Link href={"/contact"}>Contact</Link>
         </nav>
         <button className="bg-blue-950 px-4 py-2 rounded-lg flex items-center gap-2">
