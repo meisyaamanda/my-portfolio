@@ -31,7 +31,7 @@ function SkillPage() {
   };
 
   return (
-    <div className="min-h-screen relative text-white py-16 px-6 md:px-12 lg:px-20 overflow-hidden">
+    <div className="relative text-white py-16 px-6 md:px-12 lg:px-20 overflow-hidden">
       <ParticlesBg />
       <h1 className="text-4xl font-bold text-center mb-12">My Skills</h1>
       <div className="max-w-4xl mx-auto space-y-6">

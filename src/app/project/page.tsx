@@ -3,7 +3,7 @@ import ParticlesBg from "../home/particle-bg";
 
 function ProjectsPage() {
   return (
-    <div className="relative min-h-screen text-white overflow-hidden py-16">
+    <div className="relative text-white overflow-hidden py-16">
       <ParticlesBg />
 
       {/* Title */}
@@ -28,7 +28,9 @@ function ProjectsPage() {
               PT Bursa Efek Indonesia
             </h2>
             <p className="mt-2 text-gray-300">
-              Deskripsi singkat tentang project ini bla bla bla.
+              Internal System for Bursa Efek Indonesia, built to help maintain
+              and keep an eye on the stock market, emitens, and companies
+              willing to change their market/company status.
             </p>
           </div>
         </div>
@@ -47,7 +49,9 @@ function ProjectsPage() {
               Mandiri Utama Finance
             </h2>
             <p className="mt-2 text-gray-300">
-              Deskripsi singkat tentang project ini bla bla bla.
+              Information System for Mandiri Utama Finance&apos;s employee to
+              keep track of potential frauds, losses, and how to resolve them
+              regarding their credit services.
             </p>
           </div>
         </div>
@@ -56,7 +60,7 @@ function ProjectsPage() {
         <div className="flex flex-col md:flex-row items-center gap-8">
           <Image
             src="/images/p3.jpg"
-            alt="img"
+            alt="smi"
             width={800}
             height={650}
             className="rounded-lg shadow-lg w-full md:w-1/2"
@@ -66,7 +70,8 @@ function ProjectsPage() {
               PT Sarana Multi Infrastruktur
             </h2>
             <p className="mt-2 text-gray-300">
-              Deskripsi singkat tentang project ini bla bla bla.
+              Internal Information System to manage, track, and resolve their
+              loans for the partnering companies.
             </p>
           </div>
         </div>
@@ -74,8 +79,8 @@ function ProjectsPage() {
         {/* Project 4 */}
         <div className="flex flex-col md:flex-row-reverse items-center gap-8">
           <Image
-            src="/images/muf.png"
-            alt="muf"
+            src="/images/nuxa.png"
+            alt="nuxa"
             width={800}
             height={650}
             className="rounded-lg shadow-lg w-full md:w-1/2"
@@ -85,7 +90,9 @@ function ProjectsPage() {
               Nuxa Skin Clinic
             </h2>
             <p className="mt-2 text-gray-300">
-              Deskripsi singkat tentang project ini bla bla bla.
+              This project appears to be a production-grade business management
+              platform that consolidates e-commerce, clinic operations, CRM, and
+              accounting into a unified system.
             </p>
           </div>
         </div>
@@ -93,8 +100,8 @@ function ProjectsPage() {
         {/* Project 5 */}
         <div className="flex flex-col md:flex-row items-center gap-8">
           <Image
-            src="/images/p3.jpg"
-            alt="img"
+            src="/images/Lavees.png"
+            alt="lavees"
             width={800}
             height={650}
             className="rounded-lg shadow-lg w-full md:w-1/2"
@@ -104,7 +111,8 @@ function ProjectsPage() {
               Lavees Cosmedics
             </h2>
             <p className="mt-2 text-gray-300">
-              Deskripsi singkat tentang project ini bla bla bla.
+              Information System for Lavees Beauty Clinic, with integration for
+              payment gateway such as BCA, Gojek, etc.
             </p>
           </div>
         </div>
