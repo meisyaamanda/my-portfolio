@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Navigation from "./navigation/page";
+import Footer from "./footer/footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 const font = Inter({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -20,7 +23,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${font.className} antialiased bg-gray-300`}>{children}</body>
+      <body
+        className={`${font.className} antialiased bg-gray-900 text-gray-300 text-lg overflow-x-hidden overflow-y-scroll flex flex-col min-h-screen`}
+      >
+        <Navigation />
+        <main className="flex-1">{children}</main>
+        <Footer />
+        <ScrollToTop />
+      </body>
     </html>
   );
 }

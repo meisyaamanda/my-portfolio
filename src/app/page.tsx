@@ -1,8 +1,18 @@
-import * as React from "react";
-function HomePage() {
+import Photo from "./home/display-photo/page";
+import ProjectsPage from "./project/page";
+import ContactPage from "./contact/page";
+import AboutPage from "./about/page";
+import SkillPage from "./skills/page";
+function Page() {
   return (
-    <div className="text-3xl text-center">HomePage</div>
-  )
+    <div className="overflow-hidden">
+      <Photo />
+      <AboutPage />
+      <ProjectsPage />
+      <SkillPage />
+      <ContactPage />
+    </div>
+  );
 }
 
-export default HomePage
+export default Page;
