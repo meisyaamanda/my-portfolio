@@ -15,20 +15,40 @@ function ContactPage() {
         I’m always open to new opportunities, collaborations, or just a friendly
         chat. Feel free to reach out through the links below:
       </h2>
-      <div className="mt-8 pl-8 gap-8 item-center flex flex-col md:flex-row justify-center">
-        <a href="https://wa.me/6281270214415" target="_blank">
+      <div className="mt-8 px-8 gap-8 items-center flex flex-row flex-wrap justify-center">
+        <a
+          href="https://wa.me/6281270214415"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="WhatsApp"
+        >
           <FaWhatsapp className="w-12 h-12" />
         </a>
-        <a href="https://www.linkedin.com/in/meisyaamandaaldi/" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/meisyaamandaaldi/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn"
+        >
           <LinkedInLogoIcon className="w-12 h-12" />
         </a>
-        <a href="https://github.com/meisyaamanda" target="_blank">
+        <a
+          href="https://github.com/meisyaamanda"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub"
+        >
           <GitHubLogoIcon className="w-12 h-12" />
         </a>
-        <a href="https://discord.com/users/maaannn_" target="_blank">
+        <a
+          href="https://discord.com/users/maaannn_"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Discord"
+        >
           <DiscordLogoIcon className="w-12 h-12" />
         </a>
-        <a href="meiyaamandaa02@gmail.com" target="_blank">
+        <a href="mailto:meisyaamandaa02@gmail.com" aria-label="Email">
           <EnvelopeClosedIcon className="w-12 h-12" />
         </a>
       </div>

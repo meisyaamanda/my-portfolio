@@ -1,5 +1,7 @@
 "use client";
 
+import ParticlesBg from "../home/particle-bg";
+
 function SkillPage() {
   const skills = [
     { name: "JavaScript", level: "Intermediate", percentage: 50 },
@@ -29,7 +31,8 @@ function SkillPage() {
   };
 
   return (
-    <div className="min-h-screen p-8">
+    <div className="relative text-white py-16 px-6 md:px-12 lg:px-20 overflow-hidden">
+      <ParticlesBg />
       <h1 className="text-4xl font-bold text-center mb-12">My Skills</h1>
       <div className="max-w-4xl mx-auto space-y-6">
         {skills.map((skill) => (
