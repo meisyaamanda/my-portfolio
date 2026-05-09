@@ -5,7 +5,10 @@ function Navigation() {
   return (
     <>
       <header className="sticky top-0 z-50 bg-gray-900 flex p-4 justify-between text-white">
-        <h3> My Portofolio</h3>
+        <Link href="/">
+          {" "}
+          <h3> My Portofolio</h3>
+        </Link>
         <nav className="flex gap-4">
           <Link href={"/"}>Home</Link>
           <Link href={"/about"}>About</Link>
