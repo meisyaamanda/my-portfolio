@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Typewriter from "typewriter-effect";
 import ParticlesBg from "../particle-bg";
 

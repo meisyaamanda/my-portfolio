@@ -24,10 +24,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${font.className} antialiased bg-gray-900 text-gray-300 text-lg overflow-x-hidden overflow-y-scroll`}
+        className={`${font.className} antialiased bg-gray-900 text-gray-300 text-lg overflow-x-hidden overflow-y-scroll flex flex-col min-h-screen`}
       >
         <Navigation />
-        {children}
+        <main className="flex-1">{children}</main>
         <Footer />
         <ScrollToTop />
       </body>

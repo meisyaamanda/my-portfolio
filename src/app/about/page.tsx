@@ -22,14 +22,14 @@ function AboutPage() {
             </p>
           </div>
 
-          <p className="text-gray-300 leading-relaxed">
+          <p className="text-gray-300 text-2xl leading-relaxed">
             Hi! I&apos;m a Software Engineer with a background in Informatics
             and over 2 years of hands-on experience building enterprise-grade
             web applications. I enjoy turning complex business requirements into
             clean, functional systems.
           </p>
 
-          <p className="text-gray-300 leading-relaxed">
+          <p className="text-gray-300 text-2xl leading-relaxed">
             Throughout my career, I&apos;ve had the opportunity to work on
             real-world projects for leading Indonesian companies, including PT
             Bursa Efek Indonesia, Mandiri Utama Finance, PT Sarana Multi
@@ -38,7 +38,7 @@ function AboutPage() {
             systems that are actively used in production.
           </p>
 
-          <p className="text-gray-300 leading-relaxed">
+          <p className="text-gray-300 text-2xl leading-relaxed">
             I&apos;m passionate about writing maintainable code, building great
             user experiences, and continuously learning new technologies to keep
             up with the ever-evolving world of software development.
