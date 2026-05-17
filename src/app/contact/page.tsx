@@ -13,7 +13,10 @@ function ContactPage() {
       <ParticlesBg />
       <h2 className="text-center text-xl sm:text-2xl md:text-3xl font-bold">
         I’m always open to new opportunities, collaborations, or just a friendly
-        chat. Feel free to reach out through the links below:
+        chat.
+      </h2>
+      <h2 className="text-center text-xl sm:text-2xl md:text-3xl font-bold">
+        Feel free to reach out through the links below:
       </h2>
       <div className="mt-8 px-8 gap-8 items-center flex flex-row flex-wrap justify-center">
         <a
