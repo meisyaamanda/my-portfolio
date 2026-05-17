@@ -22,8 +22,8 @@ function Navigation() {
   return (
     <header className="sticky top-0 z-50 bg-gray-900 text-white">
       <div className="flex p-4 justify-between items-center">
-        <Link href="/">
-          <h3>My Portfolio</h3>
+        <Link href={navLinks[0].href}>
+          <img src="/images/MAA.png" alt="MAA" className="w-20" />
         </Link>
 
         <nav className="hidden md:flex gap-4">
