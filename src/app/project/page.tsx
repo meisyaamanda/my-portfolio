@@ -1,11 +1,8 @@
 import Image from "next/image";
-import ParticlesBg from "../home/particle-bg";
 
 function ProjectsPage() {
   return (
     <div className="relative text-white overflow-hidden py-16">
-      <ParticlesBg />
-
       {/* Title */}
       <h1 className="text-center text-2xl sm:text-4xl md:text-5xl font-bold">
         A small selection of recent{" "}
@@ -59,7 +56,7 @@ function ProjectsPage() {
         {/* Project 3 */}
         <div className="flex flex-col md:flex-row items-center gap-8">
           <Image
-            src="/images/p3.jpg"
+            src="/images/smi.png"
             alt="smi"
             width={800}
             height={650}

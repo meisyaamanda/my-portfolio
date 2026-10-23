@@ -1,11 +1,8 @@
 import Image from "next/image";
-import ParticlesBg from "../home/particle-bg";
 
 function AboutPage() {
   return (
     <div className="relative text-white overflow-hidden py-16 px-6 md:px-12 lg:px-24">
-      <ParticlesBg />
-
       <h1 className="text-center text-2xl sm:text-4xl md:text-5xl font-bold mb-16">
         About <span className="text-cyan-300">Me</span>
       </h1>
@@ -18,7 +15,7 @@ function AboutPage() {
               Meisya Amanda Aldi
             </h2>
             <p className="text-cyan-300 text-lg font-medium mt-1">
-              Software Engineer
+              Junior Software Engineer
             </p>
           </div>
 
