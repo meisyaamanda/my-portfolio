@@ -4,13 +4,11 @@ import {
   GitHubLogoIcon,
   LinkedInLogoIcon,
 } from "@radix-ui/react-icons";
-import ParticlesBg from "../home/particle-bg";
 import { FaWhatsapp } from "react-icons/fa";
 
 function ContactPage() {
   return (
     <div className="relative h-screen flex items-center justify-center text-white overflow-hidden flex-col">
-      <ParticlesBg />
       <h2 className="text-center text-xl sm:text-2xl md:text-3xl font-bold">
         I’m always open to new opportunities, collaborations, or just a friendly
         chat.
